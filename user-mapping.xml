@@ -1,0 +1,14 @@
+<user-mapping>
+        
+    <!-- Per-user authentication and config information -->
+
+    <!-- A user using md5 to hash the password
+         guacadmin user and its md5 hashed password below is used to 
+             login to Guacamole Web UI-->
+    <authorize 
+            username="admin"
+            password="d41e98d1eafa6d6011d3a70f1a5b92f0"
+            encoding="md5">
+    </authorize>
+
+</user-mapping>
