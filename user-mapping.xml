@@ -9,13 +9,22 @@
             username="admin"
             password="d41e98d1eafa6d6011d3a70f1a5b92f0"
             encoding="md5">
-            
-            <!-- First authorized Remote connection -->
+
+        <!-- First authorized Remote connection -->
         <connection name="Server SSH">
             <protocol>ssh</protocol>
-            <param name="hostname">192.168.205.11</param>
-            <param name="username">thor</param>
+            <param name="hostname">192.168.1.1</param>
+            <param name="username">support</param>
             <param name="port">22</param>
+        </connection>
+
+        <!-- Second authorized remote connection -->
+        <connection name="WindowsRDP">
+            <protocol>rdp</protocol>
+            <param name="hostname">192.168.1.2</param>
+            <param name="port">3389</param>
+            <param name="username">support</param>
+            <param name="ignore-cert">true</param>
         </connection>
 
     </authorize>
