@@ -13,7 +13,7 @@
         <!-- First authorized Remote connection -->
         <connection name="Server SSH">
             <protocol>ssh</protocol>
-            <param name="hostname">192.168.1.1</param>
+            <param name="hostname">10.10.20.166</param>
             <param name="username">support</param>
             <param name="port">22</param>
         </connection>
