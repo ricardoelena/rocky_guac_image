@@ -9,6 +9,15 @@
             username="admin"
             password="d41e98d1eafa6d6011d3a70f1a5b92f0"
             encoding="md5">
+            
+            <!-- First authorized Remote connection -->
+        <connection name="Server SSH">
+            <protocol>ssh</protocol>
+            <param name="hostname">192.168.205.11</param>
+            <param name="username">thor</param>
+            <param name="port">22</param>
+        </connection>
+
     </authorize>
 
 </user-mapping>
